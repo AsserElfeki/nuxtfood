@@ -1,6 +1,12 @@
 <template>
     <main class="container restaurant">
-        <AppRestaurantInfo />
+        <div class="restaurantheading">
+            <h1>Restaurants</h1>
+
+            <app-select @change="selectedRestaurant = $event" :selectoptions="restaurantOptions" />
+        </div>
+
+        <AppRestaurantInfo :datasource="filteredRestaurants" />
     </main>
 </template>
 
