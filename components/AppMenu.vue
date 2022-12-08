@@ -1,16 +1,15 @@
 <template>
-    <nav>
-        <li><nuxt-link exact to="/">Home</nuxt-link></li>
-        <li><nuxt-link to="/restaurants">Restaurants</nuxt-link></li>
-    </nav>
+  <nav>
+    <ul>
+      <li><nuxt-link exact to="/">Home</nuxt-link></li>
+      <li><nuxt-link to="/restaurants">Restaurants</nuxt-link></li>
+    </ul>
+  <nuxt-link to="/cart">Cart</nuxt-link>
+  </nav>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
