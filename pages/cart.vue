@@ -19,7 +19,7 @@
               <span v-if="item.options">{{ item.options }}</span>
             </td>
             <td>
-              <span v-for="addon in item.addons" :key="addon" class="comma">{{
+              <span v-for="addon in item.addOns" :key="addOn" class="comma">{{
                 addon
               }}</span>
             </td>
