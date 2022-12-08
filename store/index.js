@@ -1,20 +1,20 @@
-import {
-  v4 as uuidv4
-} from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 export const state = () => ({
   fooddata: [],
   cart: [],
 });
 
-
 export const getters = {
-  totalPrice: state => {
-    if(!state.cart.length) return 0
-    return state.cart.reduce((ac, next) =>
-        ac + +next.price, 0)
-    }
-}
+  cartCount: (state) => {
+    if (!state.cart.length) return 0;
+    return state.cart.reduce((ac, next) => ac + +next.count, 0);
+  },
+  totalPrice: (state) => {
+    if (!state.cart.length) return 0;
+    return state.cart.reduce((ac, next) => ac + +next.price, 0);
+  },
+};
 
 export const mutations = {
   updateFoodData: (state, data) => {
@@ -22,8 +22,8 @@ export const mutations = {
   },
   addToCart: (state, formOutput) => {
     formOutput.id = uuidv4();
-    state.cart.push(formOutput)
-  }
+    state.cart.push(formOutput);
+  },
 };
 
 //actions are for async logic
