@@ -11,13 +11,35 @@
 </template>
 
 <script>
-import AppRestaurantInfo from '../components/AppRestaurantInfo.vue';
+import AppRestaurantInfo from "@/components/AppRestaurantInfo.vue";
+import AppSelect from "@/components/AppSelect.vue";
+import { mapState } from "vuex";
 
-    export default {
+export default {
     components: {
-        AppRestaurantInfo
-    }
-}
+        AppSelect,
+        AppRestaurantInfo: () =>
+            import(/* webpackPrefetch: true */ "@/components/AppRestaurantInfo.vue"),
+    },
+    data() {
+        return {
+            selectedRestaurant: "",
+            restaurantOptions: ["tacos", "pizza", "dim sum"],
+        };
+    },
+    computed: {
+        ...mapState(["fooddata"]),
+        filteredRestaurants() {
+            if (this.selectedRestaurant) {
+                return this.fooddata.filter((el) => {
+                    let name = el.name.toLowerCase();
+                    return name.includes(this.selectedRestaurant);
+                });
+            }
+            return this.fooddata;
+        },
+    },
+};
 </script>
 
 <style lang="scss" scoped>
