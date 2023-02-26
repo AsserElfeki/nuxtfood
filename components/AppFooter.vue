@@ -1,7 +1,7 @@
 <template>
     <footer>
         <li class="flex">
-        <img src="../assets/github.png" alt="github icon">
+        <img class="img" src="../assets/github.png" alt="github icon">
         <p>GithubRepo</p>    
             </li>
     </footer>
@@ -30,5 +30,9 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     border-top: 1px solid #fff;
+}
+.img{
+    width: 30px;
+    height: 30px;
 }
 </style>
