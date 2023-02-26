@@ -20,10 +20,6 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #1e1e1e;
   color: #fff;
   flex-direction: column;
 }
