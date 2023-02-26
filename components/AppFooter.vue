@@ -32,6 +32,9 @@ export default {};
     margin: 0;
     gap: 15px;
 }
+li {
+    margin: 0 20px;
+}
 
 .flex {
   display: flex;
