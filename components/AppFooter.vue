@@ -1,9 +1,13 @@
 <template>
   <footer>
-    <li class="flex">
+
+      
+      <a class="flex" href="">
       <img class="img" src="../assets/github.png" alt="github icon" />
       <p>GithubRepo</p>
-    </li>
+      </a>
+      
+    
   </footer>
 </template>
 
