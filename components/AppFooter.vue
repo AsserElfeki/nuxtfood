@@ -4,7 +4,7 @@
       <li>
         <a class="flex" href="https://github.com/AsserElfeki/nuxtfood#readme">
           <img class="img" src="../assets/github.png" alt="github icon" />
-          <p>GithubRepo</p>
+          <p>Reposotiory</p>
         </a>
       </li>
 
