@@ -1,13 +1,20 @@
 <template>
   <footer>
+    <ul>
+      <li>
+        <a class="flex" href="https://github.com/AsserElfeki/nuxtfood#readme">
+          <img class="img" src="../assets/github.png" alt="github icon" />
+          <p>GithubRepo</p>
+        </a>
+      </li>
 
-      
-      <a class="flex" href="https://github.com/AsserElfeki/nuxtfood#readme">
-      <img class="img" src="../assets/github.png" alt="github icon" />
-      <p>GithubRepo</p>
-      </a>
-      
-    
+      <li>
+        <a class="flex" href="https://www.linkedin.com/in/asserelfeki/">
+          <img class="img" src="../assets/linkedin.png" alt="LinkedIn icon" />
+          <p>GithubRepo</p>
+        </a>
+      </li>
+    </ul>
   </footer>
 </template>
 
