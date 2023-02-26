@@ -2,7 +2,7 @@
   <footer>
 
       
-      <a class="flex" href="">
+      <a class="flex" href="https://github.com/AsserElfeki/nuxtfood#readme">
       <img class="img" src="../assets/github.png" alt="github icon" />
       <p>GithubRepo</p>
       </a>
