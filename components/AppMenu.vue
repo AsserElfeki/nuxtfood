@@ -6,10 +6,12 @@
       </li>
       <li><nuxt-link to="/restaurants">Restaurants</nuxt-link></li>
     </ul>
-    <div class="smallnum" v-if="cartCount > 0">
-      {{ cartCount }}
+    <div>
+      <div class="smallnum" v-if="cartCount > 0">
+        {{ cartCount }}
+      </div>
+      <nuxt-link to="/cart">Cart</nuxt-link>
     </div>
-    <nuxt-link to="/cart">Cart</nuxt-link>
   </nav>
 </template>
 
