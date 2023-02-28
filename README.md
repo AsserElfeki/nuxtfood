@@ -6,17 +6,19 @@ A fun and interactive website that gets restaurants data from a mock API and all
 ![welcome section](./assets/main_GIF.gif)
 
 ***
-### 🏆 This project was done as a part of completeing a Vue.js 3 course on [frontendmasters](https://frontendmasters.com/bootcamp/)
-**I developed this website to challenge my knowledge and understanding of Vue and some of its features such as:**
+### 🏆 This project was done as a part of completeing a Nuxt.js course on [frontendmasters](https://frontendmasters.com/)
+**I developed this website to challenge my knowledge and understanding of Vue.js and its meta framework Nuxt.js and some of their features such as:**
 - global state management using vuex
 - watchers
 - computed 
 - vuelidate 
+- NuxtLink 
 
 ****
 
 ### 📔 Tech stack & External libraries:
 - vue.js 3 
+- Nuxt 2
 - vuex for global state managament
 - vuelidate
 - uuid
