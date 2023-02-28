@@ -1,5 +1,34 @@
-# nuxtfood
+# Nuxt Food App
+🌐 [visit the deployed website](https://nuxt-food-asser.netlify.app/) 
 
+![welcome section](./assets/main_GIF.gif)
+
+A fun and interactive website that gets restaurants data from a mock API and allows users to see their menus and add items (with / without addons) to cart, then giving individual and total cost of chosen items.
+***
+## 🏆 This project was done as a part of completeing a Vue.js 3 course on [frontendmasters](https://frontendmasters.com/bootcamp/)
+**I developed this website to challenge my knowledge and understanding of Vue and some of its features such as:**
+- global state management using vuex
+- watchers
+- computed 
+- vuelidate 
+
+****
+
+## 📔 Tech stack & External libraries:
+- vue.js 3 
+- vuex for global state managament
+- vuelidate
+- uuid
+****
+## 🗝 Key features: 
+- integration with an external API for restaurants data (this API was created on AWS by Sarah Draisner one of Vue.js maintainers).
+- toasts to prompt user to choose add-ons if they are obligatory, and to notify when an item is added
+- filtering restaurants by cuisine
+- cart calculates total price.
+
+[features](./assets/features.gif
+
+*****
 ## Build Setup
 
 ```bash
