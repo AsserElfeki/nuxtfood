@@ -1,5 +1,6 @@
 # Nuxt Food App
 A fun and interactive website that gets restaurants data from a mock API and allows users to see their menus and add items (with / without addons) to cart, then giving individual and total cost of chosen items.
+
 🌐 [visit the deployed website](https://nuxt-food-asser.netlify.app/) 
 
 ![welcome section](./assets/main_GIF.gif)
