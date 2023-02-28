@@ -27,7 +27,7 @@ A fun and interactive website that gets restaurants data from a mock API and all
 - filtering restaurants by cuisine
 - cart calculates total price.
 
-[features](./assets/features.gif)
+![features](./assets/features.gif)
 
 *****
 ### Build Setup
